@@ -24,7 +24,7 @@ a{
 
 .steps{
   position: relative;
-  top: -4%;
+  top: -2%;
 }
 
 .rectangle{
@@ -360,6 +360,53 @@ a{
   background: linear-gradient(rgba(255,255,255,0.8) -58.23%,rgba(255,255,255,0.4) -1.62%, rgba(255,255,255,0.001));
   border-radius: 1rem;
 }
+
+.services-frame-9{
+  margin: 0rem 0rem 163.6rem 8.3rem;
+  box-sizing: border-box;
+  padding: 1.4rem 2.2rem 1.8rem 1.9rem;
+  width: 28.9rem;
+  height: 53.6rem;
+  position: absolute;
+  left: 99rem;
+  top: 179rem;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  background-image: url(../assets/noise-texture-bg-aLW.png);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.5rem);
+  /* background: linear-gradient(172.64deg, rgba(255, 255, 255, 0.5) -58.23%, rgba(255, 255, 255, 0.5) -1.62%, rgba(255, 255, 255, 0.5) 52.68%, rgba(255, 255, 255, 0.5) 95.34%); */
+  background: linear-gradient(rgba(255,255,255,0.8) -58.23%,rgba(255,255,255,0.4) -1.62%, rgba(255,255,255,0.001));
+  border-radius: 1rem;
+}
+
+.services-frame-10{
+  margin: 0rem 0rem 163.6rem 8.3rem;
+  box-sizing: border-box;
+  padding: 1.4rem 2.2rem 1.8rem 1.9rem;
+  width: 28.9rem;
+  height: 53.6rem;
+  position: absolute;
+  left: -2rem;
+  top: 245rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/noise-texture-bg-aLW.png);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.5rem);
+  /* background: linear-gradient(172.64deg, rgba(255, 255, 255, 0.5) -58.23%, rgba(255, 255, 255, 0.5) -1.62%, rgba(255, 255, 255, 0.5) 52.68%, rgba(255, 255, 255, 0.5) 95.34%); */
+  background: linear-gradient(rgba(255,255,255,0.8) -58.23%,rgba(255,255,255,0.4) -1.62%, rgba(255,255,255,0.001));
+  border-radius: 1rem;
+}
+
 /* ------x------------x */
 
 
