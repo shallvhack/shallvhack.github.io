@@ -1,4 +1,3 @@
-
 <html><head><title>ShallVhack® - An Open Cyber Security community</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><frameset border="0" rows="100%,*" cols="100%"
 			frameborder="no"><frame name="TopFrame"
 			scrolling="yes" noresize src="https://shallvhack.github.io"><frame name="BottomFrame" scrolling="no"
