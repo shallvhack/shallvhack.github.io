@@ -15,7 +15,7 @@ a{
          -o-animation: linear forwards reveal;
             animation: linear forwards reveal;
   }
-  
+
   @-webkit-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
      @-moz-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
        @-o-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
