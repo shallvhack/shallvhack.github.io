@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>ShallVhack - Ultimate Bug Bounty Arsenal 2025 | Ethical Hacking & Penetration Testing Resource</title>
+    <meta name="title" content="ShallVhack - Ultimate Bug Bounty Arsenal 2025 | Ethical Hacking & Penetration Testing Resource">
+    <meta name="description" content="Comprehensive bug bounty hunting resource with 600+ exploit payloads, reconnaissance techniques, automation scripts, and vulnerability testing methodologies. Master XSS, SQLi, SSRF, and more.">
+    <meta name="keywords" content="bug bounty, ethical hacking, penetration testing, cybersecurity, web security, vulnerability assessment, XSS, SQL injection, SSRF, CSRF, security research, penetration tester, bug hunter, exploit payloads, reconnaissance, enumeration, security tools, hacking tools, web application security, OWASP, information security, infosec, cyber security training, ethical hacker course, bug bounty programs, HackerOne, Bugcrowd, security testing, vulnerability scanner, security automation, subdomain enumeration, port scanning, API security, authentication bypass, IDOR, RCE, XXE, LFI, RFI, security writeups, CVE, exploit development, security researcher">
+    <meta name="author" content="ShallVhack">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/">
+    <meta property="og:title" content="ShallVhack - Ultimate Bug Bounty Arsenal 2025">
+    <meta property="og:description" content="Master bug bounty hunting with 600+ payloads, reconnaissance techniques, and comprehensive vulnerability testing methodologies for ethical hackers and security researchers.">
+    <meta property="og:image" content="https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/images/logo_white.png">
+    <meta property="og:site_name" content="ShallVhack Bug Bounty Arsenal">
+    
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/">
+    <meta property="twitter:title" content="ShallVhack - Ultimate Bug Bounty Arsenal 2025">
+    <meta property="twitter:description" content="Comprehensive bug bounty resource with exploit payloads, recon techniques, and vulnerability testing for ethical hackers.">
+    <meta property="twitter:image" content="https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/images/logo_white.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo_white.png">
+    <link rel="apple-touch-icon" href="images/logo_white.png">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ShallVhack Bug Bounty Arsenal",
+      "description": "Comprehensive bug bounty hunting resource with reconnaissance techniques, exploit payloads, automation scripts, and vulnerability testing methodologies",
+      "url": "https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/",
+      "author": {
+        "@type": "Organization",
+        "name": "ShallVhack"
+      },
+      "keywords": "bug bounty, ethical hacking, penetration testing, cybersecurity, XSS, SQL injection, SSRF, web security",
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://shallvhack.github.io/ShallVhack-Ultimate-BugBounty-Repo/#search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "Ultimate Bug Bounty Arsenal - Complete Guide for Security Researchers",
+      "description": "Master bug bounty hunting with comprehensive methodologies covering reconnaissance, enumeration, vulnerability testing, exploit payloads, and automation techniques",
+      "author": {
+        "@type": "Organization",
+        "name": "ShallVhack"
+      },
+      "datePublished": "2025-01-01",
+      "dateModified": "2025-11-09",
+      "proficiencyLevel": "Beginner to Advanced",
+      "articleSection": [
+        "Reconnaissance",
+        "Enumeration",
+        "Vulnerabilities",
+        "Payloads",
+        "Automation",
+        "Tools"
+      ]
+    }
+    </script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/logo_white.png" alt="ShallVhack Logo" class="brand-logo">
+                <span>ShallVhack</span>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#reconnaissance" class="nav-link">Recon</a></li>
+                <li><a href="#enumeration" class="nav-link">Enumeration</a></li>
+                <li><a href="#vulnerabilities" class="nav-link">Vulnerabilities</a></li>
+                <li><a href="#payloads" class="nav-link">Payloads</a></li>
+                <li><a href="#automation" class="nav-link">Automation</a></li>
+                <li><a href="#writeups" class="nav-link">Writeups</a></li>
+                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3><i class="fas fa-book"></i> Navigation</h3>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search content...">
+            <i class="fas fa-search"></i>
+        </div>
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#home" class="sidebar-link active">
+                    <i class="fas fa-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a href="#reconnaissance" class="sidebar-link">
+                    <i class="fas fa-binoculars"></i> Reconnaissance
+                </a>
+                <ul class="submenu">
+                    <li><a href="#recon-subdomain">Subdomain Enumeration</a></li>
+                    <li><a href="#recon-dns">DNS Reconnaissance</a></li>
+                    <li><a href="#recon-ports">Port Scanning</a></li>
+                    <li><a href="#recon-tech">Technology Fingerprinting</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#enumeration" class="sidebar-link">
+                    <i class="fas fa-search-plus"></i> Enumeration
+                </a>
+                <ul class="submenu">
+                    <li><a href="#enum-content">Content Discovery</a></li>
+                    <li><a href="#enum-api">API Enumeration</a></li>
+                    <li><a href="#enum-js">JavaScript Analysis</a></li>
+                    <li><a href="#enum-params">Parameter Discovery</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#vulnerabilities" class="sidebar-link">
+                    <i class="fas fa-bug"></i> Vulnerabilities
+                </a>
+                <ul class="submenu">
+                    <li><a href="#vuln-xss">XSS</a></li>
+                    <li><a href="#vuln-sqli">SQL Injection</a></li>
+                    <li><a href="#vuln-ssrf">SSRF</a></li>
+                    <li><a href="#vuln-csrf">CSRF</a></li>
+                    <li><a href="#vuln-auth">Authentication</a></li>
+                    <li><a href="#vuln-idor">IDOR</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#payloads" class="sidebar-link">
+                    <i class="fas fa-code"></i> Payloads
+                </a>
+            </li>
+            <li>
+                <a href="#automation" class="sidebar-link">
+                    <i class="fas fa-robot"></i> Automation
+                </a>
+            </li>
+            <li>
+                <a href="#writeups" class="sidebar-link">
+                    <i class="fas fa-file-alt"></i> Writeups
+                </a>
+            </li>
+            <li>
+                <a href="#tools" class="sidebar-link">
+                    <i class="fas fa-tools"></i> Tools
+                </a>
+            </li>
+            <li>
+                <a href="#resources" class="sidebar-link">
+                    <i class="fas fa-graduation-cap"></i> Resources
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <img src="images/logo_white.png" alt="ShallVhack Logo" class="hero-logo">
+                <h1 class="hero-title">
+                    <span class="gradient-text">ShallVhack</span> <br />Ultimate BugBounty Arsenal
+                </h1>
+                <p class="hero-subtitle">
+                    The Ultimate Bug Bounty Resource 
+                </p>
+                <p class="hero-description">
+                    A comprehensive collection of methodologies, payloads, automation techniques, 
+                    and real-world examples for modern bug bounty hunting.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#reconnaissance" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Get Started
+                    </a>
+                    <a href="https://github.com/ShallVhack/ShallVhack-Ultimate-BugBounty-Arsenal" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">9</div>
+                        <div class="stat-label">Sections</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4000+</div>
+                        <div class="stat-label">Lines of Content</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">600+</div>
+                        <div class="stat-label">Payloads</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Tools</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Overview -->
+        <section class="features-section">
+            <h2 class="section-title">What's Inside</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-binoculars"></i>
+                    </div>
+                    <h3>Reconnaissance</h3>
+                    <p>Complete asset discovery workflows including subdomain enumeration, DNS analysis, and certificate transparency mining.</p>
+                    <a href="#reconnaissance" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <h3>Enumeration</h3>
+                    <p>Deep application analysis techniques for API discovery, JavaScript parsing, and parameter extraction.</p>
+                    <a href="#enumeration" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Vulnerabilities</h3>
+                    <p>Comprehensive testing methodologies for XSS, SQLi, SSRF, CSRF, and all major vulnerability types.</p>
+                    <a href="#vulnerabilities" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Payloads</h3>
+                    <p>Ready-to-use exploit strings for various contexts including bypass techniques and polyglots.</p>
+                    <a href="#payloads" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automation</h3>
+                    <p>Time-saving one-liners, custom scripts, and tool-chaining workflows for efficient hunting.</p>
+                    <a href="#automation" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Writeups</h3>
+                    <p>Real-world vulnerability discoveries with detailed exploitation steps and impact analysis.</p>
+                    <a href="#writeups" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools</h3>
+                    <p>Installation guides and usage examples for essential bug bounty hunting tools.</p>
+                    <a href="#tools" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Resources</h3>
+                    <p>Learning paths, checklists, report templates, and community resources.</p>
+                    <a href="#resources" class="feature-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Sections -->
+        <div id="content-container"></div>
+
+        <!-- Quick Start Guide -->
+        <section class="quickstart-section">
+            <h2 class="section-title">Quick Start Guide</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>Set Up Your Environment</h3>
+                        <p>Install essential tools and configure your testing environment</p>
+                        <pre><code class="language-bash">go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest</code></pre>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>Start Reconnaissance</h3>
+                        <p>Discover assets and map attack surface</p>
+                        <pre><code class="language-bash">subfinder -d target.com -silent | httpx -silent > live_hosts.txt</code></pre>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3>Enumerate and Test</h3>
+                        <p>Deep dive into discovered assets and test for vulnerabilities</p>
+                        <pre><code class="language-bash">cat live_hosts.txt | nuclei -t nuclei-templates/</code></pre>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3>Report Findings</h3>
+                        <p>Document and submit clear, actionable reports</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-shield-alt"></i> ShallVhack</h3>
+                <p>Empowering security researchers with comprehensive bug bounty resources.</p>
+                <div class="social-links">
+                    <a href="https://github.com/ShallVhack" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/ShallVhack" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#reconnaissance">Reconnaissance</a></li>
+                    <li><a href="#vulnerabilities">Vulnerabilities</a></li>
+                    <li><a href="#automation">Automation</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://github.com/ShallVhack/ShallVhack-Ultimate-BugBounty-Arsenal" target="_blank">GitHub Repository</a></li>
+                    <li><a href="#tools">Tools Guide</a></li>
+                    <li><a href="#writeups">Case Studies</a></li>
+                    <li><a href="#resources">Learning Paths</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+                <p class="disclaimer-text">⚠️ For educational purposes only. Always obtain proper authorization.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ShallVhack. Released under MIT License.</p>
+            <p>Built with ❤️ for the security community</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

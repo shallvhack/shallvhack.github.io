@@ -1,0 +1,27 @@
+# GitHub Pages Configuration
+title: ShallVhack Ultimate BugBounty Arsenal
+description: The Ultimate Bug Bounty Resource for 2025
+baseurl: ""
+url: "https://shallvhack.github.io"
+
+# Theme (not used for custom HTML but good to have)
+theme: null
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include
+include:
+  - _config.yml
+  - .nojekyll
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
